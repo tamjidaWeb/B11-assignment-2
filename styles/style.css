@@ -193,6 +193,53 @@ ul li{
     padding: 60px 0px 60px 0px;
 
 }
+.chevron-section{
+    padding:  60px;
+   
+}
+.chevron{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   
+}
+.chevron a {
+    width: 60px; /* Fixed width */
+    height: 60px; /* Fixed height */
+    line-height: 60px; /* Centers the text/icon vertically */
+    border-radius: 50%;
+    font-size: 24px;
+    background-color: #FEA301;
+    display: inline-block;
+    text-align: center; /* Centers the text/icon horizontally */
+    box-sizing: border-box; /* Ensures borders are included in size */
+    text-decoration: none; /* Optional: removes underline from links */
+    color: #fff; /* Optional: sets the icon color */
+}
+
+/* -----------Story section--------- */
+.bg-color{
+    background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+}
+.stories-starting{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.story-1{
+    border: 1px solid red;
+}
+.story-two-to-six{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.our-stories img{
+    width: 100%;
+    /* height: 100%; */
+}
+
 
 
 
