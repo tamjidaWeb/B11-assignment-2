@@ -16,7 +16,7 @@ body{
 
 header{
   
-    justify-content: space-around;
+    /* justify-content: space-between; */
     
     /* width: 1440px; */
     /* display: flex; */
@@ -29,7 +29,7 @@ header{
   margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .logo{
     display: flex;
@@ -407,7 +407,7 @@ footer{
 }
 .footer-text img{
     height: 80px;
-    background-color: #fff;
+    /* background-color: #fff; */
 }
 .footer-text h1{
     padding-left: 10px;
@@ -417,10 +417,11 @@ footer{
     gap: 20px;
 }
 .text p{
+    width: 400px;
     margin-top: 30px;
     font-size: 20px;
     color: rgb(255, 255, 255);
-    padding-right: 150px;
+    /* padding-right: 150px; */
 
 }
 .ul-li-links{
@@ -486,6 +487,17 @@ footer{
     }
     .display-none-story-1{
         display: none;
+    }
+    .foot-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .grid{
+        display: flex;
+        flex-direction: column;
+    }
+    .text p{
+        width: 375px;
     }
     
 }
