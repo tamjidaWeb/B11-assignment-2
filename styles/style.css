@@ -12,6 +12,14 @@ body{
     font-family: "Quicksand", serif;
     max-width: 1440px;
 }
+marquee{
+    /* border: 1px solid red; */
+    /* border-radius: 50px; */
+    /* padding-top: 10px; */
+    margin-top: 10px;
+    background-color: #05D4DF;
+}
+.
 
 
 header{
@@ -384,7 +392,7 @@ ul li{
 }
 .our-stories{
     /* text-align: center; */
-    background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    /* background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%); */
 }
 .our-stories .butn{
    padding: 20px;
