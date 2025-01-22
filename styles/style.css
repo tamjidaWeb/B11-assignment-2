@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background:url(../assets/bg.png);
+    /* background:url(../assets/bg.png); */
     height: 100vh;
     overflow-x: hidden;
     /* padding: 30px 40px; */
@@ -15,6 +15,7 @@ body{
 
 
 header{
+    padding: 20px 100px;
   
     /* justify-content: space-between; */
     
@@ -22,6 +23,9 @@ header{
     /* display: flex; */
     /* padding-top: 30px; */
     max-height: auto;
+}
+main{
+    padding: 20px 100px;
 }
 .navbar{
     width: 100%;
@@ -224,8 +228,15 @@ ul li{
 
 /* -----------Story section--------- */
 /* .bg-color{
-    background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
 } */
+ /* .linear-graient{
+    background: linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+
+ } */
+ .main-section{
+    background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+
+ }
 .stories-starting{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
