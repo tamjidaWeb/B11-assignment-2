@@ -19,7 +19,7 @@ marquee{
     margin-top: 10px;
     background-color: #05D4DF;
 }
-.
+
 
 
 header{
@@ -33,6 +33,7 @@ header{
     max-height: auto;
 }
 main{
+    background: url(../assets/bg.png);
     padding: 20px 100px;
 }
 .navbar{
@@ -241,10 +242,10 @@ ul li{
     background: linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
 
  } */
- .main-section{
+ /* .main-section{
     background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
 
- }
+ } */
 .stories-starting{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
