@@ -510,5 +510,9 @@ footer{
     .text p{
         width: 375px;
     }
+    footer{
+        padding-right: 16px;
+        padding-left: 16px;
+    }
     
 }
